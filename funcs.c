@@ -39,6 +39,7 @@ int max_range(char filename[])
             {} else {
                 return NOTCORRECTSUBSEQUENCE;
             }
+            last_num = num;
             n += 1;
         }
     }
